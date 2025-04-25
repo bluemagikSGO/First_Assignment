@@ -47,7 +47,7 @@ const Hero = () => {
           </span>
           It's nice that with GetResponse, we have the tools and integrations we
           need within our budget.
-          <span className="block mt-5">
+          <span className="block mt-10">
             <button className="flex items-center gap-1 mx-auto border-2 border-black rounded-lg px-[35px] py-[8px] font-[700] text-white bg-blue-400 hover:bg-yellow-300 hover:text-black hover:duration-300 ease-in-out">
               <span>Read case study</span>
               <span>
@@ -88,7 +88,7 @@ const Hero = () => {
           <p className=" text-gray-700">
             Regarding revenue contribution, the email marketing channel is like
             free money to us.
-            <span className="block mt-5">
+            <span className="block mt-11">
               <button className="flex items-center gap-1 mx-auto border-2 border-black rounded-lg px-[35px] py-[8px] font-[700] text-white bg-blue-400 hover:bg-yellow-300 hover:text-black hover:duration-300 ease-in-out">
                 <span>Read case study</span>
                 <span>

@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
       </div> */}
 
-      <div>
+      <div className="px-14 py-5">
         <ul className="flex justify-between">
           <li className="ml-5">
             <div className="font-[700]">Get the GetResponse App</div>
@@ -61,6 +61,23 @@ const Footer = () => {
             </div>
           </li>
         </ul>
+      </div>
+      <div className="flex justify-between px-14">
+        <div>Copyright © 2025 GetResponse. Email marketing & beyond®</div>
+
+        <div>
+          <ul className="flex gap-8">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Anti-Spam Policy</a>
+            </li>
+            <li>
+              <a href="#">Terms of Service</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   );
