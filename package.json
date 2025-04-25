@@ -1,6 +1,7 @@
 {
   "name": "newtut",
   "private": true,
+  "homepage": "https://bluemagiksgo.github.io/First_Assignment/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
