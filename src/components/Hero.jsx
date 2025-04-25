@@ -1,8 +1,4 @@
 import { FaArrowRightLong } from "react-icons/fa6";
-import Button from "./GButton";
-import SocialButton from "./SocialButton";
-import LanguageSelector from "./language";
-import Switch from "./Toggle";
 
 const Hero = () => {
   return (
@@ -34,34 +30,75 @@ const Hero = () => {
         <small className="font-[500] ">
           Try us free | No credit card required | Cancel anytime
         </small>
-        <hr />
       </div>
-      {/* <div className="flex justify-between items-center">
-        <div className="flex flex-col fle items-left mx-5 gap-2">
-          <div className="font-[700]">Get the GetResponse App</div>
-          <div>
-            <Button />
-          </div>
+
+      {/* card */}
+
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 px-40 pt-5">
+        {" "}
+        {/* Adds spacing between cards */}
+        {/* Card 1 */}
+        <div className="pt-[30px] px-[36px] pb-[36px] bg-white rounded-lg shadow-md border border-gray-200 h-full hover:border-4 hover:border-blue-500 transition-all">
+          <span className="block font-bold text-[28px] text-blue-400">
+            10% list growth
+          </span>
+          <span className="block text-black-600 text-[27px] font-bold">
+            & sales spike in tough niche
+          </span>
+          It's nice that with GetResponse, we have the tools and integrations we
+          need within our budget.
+          <span className="block mt-5">
+            <button className="flex items-center gap-1 mx-auto border-2 border-black rounded-lg px-[35px] py-[8px] font-[700] text-white bg-blue-400 hover:bg-yellow-300 hover:text-black hover:duration-300 ease-in-out">
+              <span>Read case study</span>
+              <span>
+                <FaArrowRightLong />
+              </span>
+            </button>
+          </span>
         </div>
-        <div className="flex flex-col fle items-left mx-5 gap-2">
-          <div className="font-[700]">Follow us</div>
-          <div className="flex">
-            <SocialButton />
-          </div>
+        {/* Card 2 */}
+        <div className="pt-[30px] px-[36px] pb-[36px] bg-white rounded-lg shadow-md border border-gray-200 h-full hover:border-4 hover:border-blue-500 transition-all">
+          <span className="block font-bold text-[28px] text-blue-400">
+            75% of all public sales
+          </span>
+          <span className="block text-black-600 text-[27px] font-bold">
+            from email autoresponders
+          </span>
+          <p className=" text-gray-700">
+            Together with GetResponse, we've been able to convince customers of
+            need, culminating in compelling sales.
+            <span className="block mt-5">
+              <button className="flex items-center gap-1 mx-auto border-2 border-black rounded-lg px-[35px] py-[8px] font-[700] text-white bg-blue-400 hover:bg-yellow-300 hover:text-black hover:duration-300 ease-in-out">
+                <span>Read case study</span>
+                <span>
+                  <FaArrowRightLong />
+                </span>
+              </button>
+            </span>
+          </p>
         </div>
-        <div className="flex flex-col fle items-left mx-5 gap-2">
-          <div className="font-[700]">Change the language</div>
-          <div>
-            <LanguageSelector />
-          </div>
+        {/* Card 3 */}
+        <div className="pt-[30px] px-[36px] pb-[36px] bg-white rounded-lg shadow-md border border-gray-200 h-full hover:border-4 hover:border-blue-500 transition-all">
+          <span className="block font-bold text-[28px] text-blue-400">
+            Up to $1,000
+          </span>
+          <span className="block text-black-600 text-[27px] font-bold">
+            for every 1000 emails sent
+          </span>
+          <p className=" text-gray-700">
+            Regarding revenue contribution, the email marketing channel is like
+            free money to us.
+            <span className="block mt-5">
+              <button className="flex items-center gap-1 mx-auto border-2 border-black rounded-lg px-[35px] py-[8px] font-[700] text-white bg-blue-400 hover:bg-yellow-300 hover:text-black hover:duration-300 ease-in-out">
+                <span>Read case study</span>
+                <span>
+                  <FaArrowRightLong />
+                </span>
+              </button>
+            </span>
+          </p>
         </div>
-        <div className="flex flex-col fle items-left mx-5 gap-2">
-          <div className="font-[700]">Turn on high contrast</div>
-          <div>
-            <Switch />
-          </div>
-        </div>
-      </div> */}
+      </div>
     </section>
   );
 };
