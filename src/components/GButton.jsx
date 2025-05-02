@@ -4,7 +4,7 @@ const Button = () => {
   return (
     <div className="flex gap-3">
       <button className="cursor-pointer">
-        <div className="flex max-w-48 h-4 px-3 gap-2 rounded-xl items-center justify-center  text-black dark:text-black dark:bg-white sm:h-11 border-2 border-black">
+        <div className="flex max-w-48 h-8 px-3 gap-2 rounded-xl items-center justify-center  text-black dark:text-black dark:bg-white sm:h-11 border-2 border-black">
           <svg viewBox="30 336.7 120.9 129.2" className="w-5 sm:w-7">
             <path
               d="M119.2,421.2c15.3-8.4,27-14.8,28-15.3c3.2-1.7,6.5-6.2,0-9.7  c-2.1-1.1-13.4-7.3-28-15.3l-20.1,20.2L119.2,421.2z"
